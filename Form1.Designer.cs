@@ -69,8 +69,7 @@ partial class Form1
         // 
         // ofdExe
         // 
-        ofdExe.Filter = "PS Exe|SL?S_*.??;SC?S_*.??;SLPM_*.??;PSX.EXE|All files (*.*)|*.*";
-        ofdExe.SupportMultiDottedExtensions = true;
+        ofdExe.Filter = ("PS Exe|SL?S_*.??;SC?S_*.??;SLPM_*.??;HNMR_*.??;HMRU_*.??;PSX.EXE|All files (*.*)|" + "*.*");
         ofdExe.Title = "Choose executable";
         // 
         // fbdOutput
